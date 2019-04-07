@@ -94,7 +94,7 @@ def run():
     else:
         print("Threshold not breached :-)")
 
-    print(json_data)
+    print(json.dumps(json_data, indent=2))
 
 
 run()
